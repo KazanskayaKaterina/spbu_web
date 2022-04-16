@@ -1,0 +1,45 @@
+body {
+    background: azure;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1 {
+    background: dodgerblue;
+    color: chartreuse;
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#sidebar {
+    float: left;
+    width: 10%;
+    padding: 5px;
+    margin: auto auto;
+}
+
+#descripto {
+    margin: 10px 5px 20px 15%;
+}
+
+#content {
+    float: right;
+    margin: 30px 15px 60px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 75%;
+    border: 1px solid black;
+    background-image: none;
+}
+
