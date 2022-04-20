@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Анкета</title>
+</head>
+<body>
+<h1>Создай своего персонажа</h1>
+<span>Анкета</span>
+
+<form id="my-from">
+    <fieldset id="fieldset1">
+        <legend>Профиль</legend>
+        <label>
+            Никнэйм:
+                <input type="text" id="fio" maxlength="50" name="фио" placeholder="Никнэйм"/>
+        </label>
+        <label>
+            Пароль:
+                <input type="password" id="password" maxlength="50" name="пароль" placeholder="Пароль"/>
+        </label>
+        <label>
+            AGE:
+                <input type="number" id="age" min="0" max="85" name="возраст" value="-"/>
+        </label>
+        <label>
+            Location:
+            <input type="text" id="location" maxlength="50" name="локация" placeholder="Место жительства"/>
+        </label>
+    </fieldset>
+    <fieldset id="fieldset2">
+        <legend>Интересы</legend>
+        <label>
+            <textarea name="хобби" id="msg" rows="10" placeholder="Твои интересы, хобби"></textarea>
+        </label>
+    </fieldset>
+
+    <fieldset id="fieldset3">
+        <legend>Любимая часть</legend>
+        <label>
+            <select id="sel">
+                <option>Шрек</option>
+                <option>Шрек 2</option>
+                <option>Шрек 3</option>
+                <option>Шрек навсегда</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <input type="submit">
+</form>
+
+<script src="my.js"></script>
+</body>
+</html>
