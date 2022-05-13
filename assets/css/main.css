@@ -16,22 +16,6 @@ h1 {
     -webkit-text-stroke-color: black;
 }
 
-#sidebar {
-    float: left;
-    width: 10%;
-    padding: 5px;
-    margin: auto auto;
-}
-
-#descripto {
-    margin: 10px 5px 20px 15%;
-}
-
-#content {
-    float: right;
-    margin: 30px 15px 60px;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     height: 100px;
